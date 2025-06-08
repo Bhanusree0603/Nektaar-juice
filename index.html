@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nektaar – The Juice</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800 font-sans p-6" style="background-color:#FFF5E1;">
+
+  <h1 class="text-5xl text-center mb-8">Nektaar – The Juice🍹</h1>
+
+  <!-- Main image -->
+  <div class="flex justify-center mb-12">
+    <img src="images/image.png" alt="Nektaar Main" class="w-1/2 max-w-md" />
+  </div>
+
+  <p class="text-center text-xl leading-relaxed mb-16">
+    Ever had a drink that understands your soul?<br />
+    Well, meet <strong>Nektaar</strong> – the juice that’s not just a drink, but a mood, a vibe, a whole personality! 🎉🎉🎉🎉🎉
+  </p>
+
+  <!-- Navigation -->
+  <nav class="text-center mb-16 space-x-4">
+    <a href="#" class="bg-sky-400 hover:bg-sky-500 text-white py-2 px-5 rounded transition">Home</a>
+    <a href="about.html" class="bg-sky-400 hover:bg-sky-500 text-white py-2 px-5 rounded transition">About</a>
+    <a href="services.html" class="bg-sky-400 hover:bg-sky-500 text-white py-2 px-5 rounded transition">Services</a>
+    <a href="contact.html" class="bg-sky-400 hover:bg-sky-500 text-white py-2 px-5 rounded transition">Contact</a>
+  </nav>
+
+  <h2 class="text-4xl text-center mb-6">Our core flavours</h2>
+  <hr class="border-gray-300 mb-12 max-w-4xl mx-auto" />
+
+  <!-- Juice Flavors Section -->
+  <section class="max-w-4xl mx-auto space-y-20">
+
+    <!-- Amla + Ginger + Lemon -->
+    <div>
+      <h3 class="text-3xl text-center mb-2">🍋 Amla + Ginger + Lemon</h3>
+      <p class="text-center text-sm mb-6">
+        For those who like their drinks how they like their comebacks: strong, zesty, and unforgettable! 🔥💁‍♀️
+      </p>
+      <div class="flex justify-center mb-6">
+        <img src="images/image1.png" alt="Amla Ginger Lemon Juice" class="w-1/2 max-w-sm" />
+      </div>
+      <div class="flex justify-center">
+        <button
+          onclick="document.getElementById('amla-benefits').classList.toggle('hidden')"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow"
+        >
+          Benefits
+        </button>
+      </div>
+      <div
+        id="amla-benefits"
+        class="hidden mt-4 bg-blue-50 border border-blue-200 rounded p-5 text-sm max-w-md mx-auto"
+      >
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Rich in Vitamin C</strong> – Boosts immunity and promotes glowing skin.</li>
+          <li><strong>Powerful Antioxidants</strong> – Fights free radicals and reduces cell damage.</li>
+          <li><strong>Aids Digestion</strong> – Supports gut health and relieves bloating.</li>
+          <li><strong>Regulates Blood Sugar</strong> – Helps control sugar levels naturally.</li>
+          <li><strong>Detoxifies the Body</strong> – Flushes out toxins and improves liver function.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Pineapple -->
+    <div>
+      <h3 class="text-3xl text-center mb-2">🥭 Pineapple</h3>
+      <p class="text-center text-sm mb-6">
+        As refreshing as that first sip of cold water after surviving Hyderabad heat—except it’s fruity, flavorful, and doesn’t judge your life choices. 😉
+      </p>
+      <div class="flex justify-center mb-6">
+        <img src="images/image2.png" alt="Pineapple Juice" class="w-1/2 max-w-sm" />
+      </div>
+      <div class="flex justify-center">
+        <button
+          onclick="document.getElementById('pineapple-benefits').classList.toggle('hidden')"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow"
+        >
+          Benefits
+        </button>
+      </div>
+      <div
+        id="pineapple-benefits"
+        class="hidden mt-4 bg-blue-50 border border-blue-200 rounded p-5 text-sm max-w-md mx-auto"
+      >
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Rich in Vitamin C</strong> – Strengthens immunity and promotes healthy skin.</li>
+          <li><strong>Aids Digestion</strong> – Contains bromelain, which helps break down proteins.</li>
+          <li><strong>Supports Hydration</strong> – High water content keeps the body refreshed.</li>
+          <li><strong>Boosts Eye Health</strong> – Contains beta-carotene and antioxidants for vision.</li>
+          <li><strong>Anti-Inflammatory Properties</strong> – Helps reduce swelling and joint pain.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Nannari -->
+    <div>
+      <h3 class="text-3xl text-center mb-2">🧃 Nannari</h3>
+      <p class="text-center text-sm mb-6">
+        Old-school cool, like your grandma’s wisdom wrapped in a refreshing sip. Nostalgia in a bottle! 🕶✨
+      </p>
+      <div class="flex justify-center mb-6">
+        <img src="images/image3.png" alt="Nannari Juice" class="w-1/2 max-w-sm" />
+      </div>
+      <div class="flex justify-center">
+        <button
+          onclick="document.getElementById('nannari-benefits').classList.toggle('hidden')"
+          class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded shadow"
+        >
+          Benefits
+        </button>
+      </div>
+      <div
+        id="nannari-benefits"
+        class="hidden mt-4 bg-blue-50 border border-blue-200 rounded p-5 text-sm max-w-md mx-auto"
+      >
+        <ul class="list-disc list-inside space-y-2">
+          <li><strong>Natural Coolant</strong> – Helps regulate body temperature and prevents heat strokes.</li>
+          <li><strong>Aids Digestion</strong> – Soothes the digestive system and relieves acidity.</li>
+          <li><strong>Detoxifies the Body</strong> – Flushes out toxins and purifies the blood.</li>
+          <li><strong>Boosts Immunity</strong> – Rich in antioxidants that strengthen the immune system.</li>
+          <li><strong>Good for Skin Health</strong> – Helps maintain clear and healthy skin.</li>
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+</body>
+</html>
